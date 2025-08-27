@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activeWindow="0">
+  <PLACEMENT>01d9d0cb00030000fffffffffffffff5000008be0000053e0000000000000022000008bd0000053d000000000000000008c00000000000000022000008bd0000053d</PLACEMENT>
+  <WINDOW index="0" module="ISIS" mode="00050a01" type="default"/>
+  <WINDOW index="0" module="VSMSTUDIO" mode="00050a01" type="default">
+   <STATE VALUE="AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAABM/wCAAAAAvsAAAAQAFAAcgBvAGoAZQBjAHQAcwEAAAAAAAABMwAAASwA////+wAAABQAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAI8A////AAAAAwAAAoAAAACk/AEAAAAB/AAAAAAAAAKAAAAAgAD////6AAAAAAEAAAAC+wAAACAATwB1AHQAcAB1AHQARABvAGMAawBXAGkAZABnAGUAdAEAAAAA/////wAAAIAA////+wAAACIAQgByAGUAYQBrAHAAbwBpAG4AdABzAFcAaQBuAGQAbwB3AAAAAAD/////AAAAgAD///8AAAAAAAAAAAAAAAEAAAACAAAACAAAAAL8AAAAAA==" NAME="EDIT"/>
+   <PROJECT CONFIGURATION="Debug" NAME="STM32F103C8_1" ACTIVE="true">
+    <PROGRAMMER NAME="" INTERFACE=""/>
+   </PROJECT>
+   <EDITOR>
+    <FILE NAME="STM32F103C8_1/main.c" ACTIVE="1"/>
+   </EDITOR>
+  </WINDOW>
+  <WINDOW index="0" module="PROJNOTES" mode="00050a01" type="default"/>
+ </FRAME>
+ <MODULE name="VSMEDIT">
+  <EDITOR>
+   <FILE NAME="STM32F103C8_1/main.c" ACTIVE="1"/>
+  </EDITOR>
+ </MODULE>
+ <MODULE name="ISIS">
+  <editor metric="0" orgmode="0" snaprange="127000" flipped="0" gridmajor="2540000" xcursor="0" snap="254000" scale="141" zoom="0" gridminor="254000" gridmode="2" snapidx="2">
+   <centre y="-508000" x="4318000"/>
+   <origin y="0" x="0"/>
+   <world x2="26670000" y1="-19050000" x1="-26670000" y2="19050000"/>
+  </editor>
+ </MODULE>
+ <MODULE name="VSMDEBUG">
+  <PWI/>
+ </MODULE>
+ <MODULE name="ARES">
+  <editor metric="0" orgmode="0" snaprange="0" flipped="0" gridmajor="0" xcursor="0" snap="0" scale="10" zoom="10" gridminor="0" gridmode="2" snapidx="3">
+   <centre y="0" x="0"/>
+   <origin y="0" x="0"/>
+   <world x2="15240000" y1="-12700000" x1="-15240000" y2="12700000"/>
+  </editor>
+ </MODULE>
+</WORKSPACE>
