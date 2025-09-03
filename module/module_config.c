@@ -196,9 +196,9 @@ void MODULE_InitAll(void) {
 	
 		MODULE_InitGPIOOutputs();    // 初始化 GPIO 输出
 	
-		MODULE_InitDHT11();         // 初始化 DHT11 温湿度传感器
+		//MODULE_InitDHT11();         // 初始化 DHT11 温湿度传感器
 	
-		MODULE_InitDS18B20();         // 初始化 DS18B20 温度传感器
+		//MODULE_InitDS18B20();         // 初始化 DS18B20 温度传感器
 	
     OLED_ShowString(&OLED_Handle, 1, 1, "MODULE_Init OK!");
 }

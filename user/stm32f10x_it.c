@@ -135,6 +135,8 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
+    uwTick++;               /* Ã¿ 1 ms +1 */
+	 LED_Toggle(&BOARD_LED2);  //ÐÄÌøµÆ
 }
 
 /*

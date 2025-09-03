@@ -3,13 +3,6 @@
 
 #include "system_config.h"
 
-/************************************************
- LEDµÆÇý¶¯
- ÌÔ±¦µêÆÌ£ºhttps://shop475501589.taobao.com/?spm=pc_detail.29232929/evo365560b447259.shop_block.dshopinfo.5dd97dd6JvMuG3
- ÏÌÓãµêÆÌ£ºhttps://www.goofish.com/personal?spm=a21ybx.item.itemHeader.1.c17a3da6hy8k28&userId=3890583014
- ßÙÁ¨ßÙÁ¨£ºhttps://space.bilibili.com/482024430?spm_id_from=333.788.upinfo.detail.click
- ×÷Õß£ºÊ¤ÀÚµç×Ó
-************************************************/
 
 // LED×´Ì¬Ã¶¾Ù
 typedef enum {

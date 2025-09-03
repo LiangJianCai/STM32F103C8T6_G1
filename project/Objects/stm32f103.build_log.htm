@@ -17,12 +17,12 @@ Library Manager: ArmAr.exe V5.06 update 7 (build 960)
 Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
 CPU DLL:         SARMCM3.DLL V5.36.0.0
 Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      UL2CM3.DLL V1.164.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-D:\lenovo\Desktop\14_DS18B20\STM32F103_DS18B20\project\stm32f103.uvprojx
-Project File Date:  07/24/2025
+D:\lenovo\Desktop\STM32F103_G1\project\stm32f103.uvprojx
+Project File Date:  09/02/2025
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\EmbededSoft\keil5\ARM\ARMCC\Bin'
@@ -50,6 +50,11 @@ compiling rtc.c...
 compiling pwm.c...
 compiling board_config.c...
 compiling module_config.c...
+..\module\module_config.c(138): warning:  #177-D: function "MODULE_InitDHT11"  was declared but never referenced
+  static void MODULE_InitDHT11(void) {
+..\module\module_config.c(165): warning:  #177-D: function "MODULE_InitDS18B20"  was declared but never referenced
+  static void MODULE_InitDS18B20(void) {
+..\module\module_config.c: 2 warnings, 0 errors
 compiling OLED.c...
 compiling gpio_input.c...
 compiling gpio_output.c...
@@ -58,27 +63,19 @@ compiling ds18b20.c...
 compiling main.c...
 compiling stm32f10x_it.c...
 compiling sensor_app.c...
-..\application\sensor_app.c(243): warning:  #1-D: last line of file ends without a newline
-  }
-..\application\sensor_app.c(22): warning:  #177-D: function "Sensor_GetSystemClock"  was declared but never referenced
+..\application\sensor_app.c(17): warning:  #177-D: function "Sensor_GetSystemClock"  was declared but never referenced
   static void Sensor_GetSystemClock(void)
-..\application\sensor_app.c(37): warning:  #177-D: function "Sensor_GetValueADC"  was declared but never referenced
-  static void Sensor_GetValueADC(void)
-..\application\sensor_app.c(82): warning:  #177-D: function "Sensor_TestPWM"  was declared but never referenced
-  static void Sensor_TestPWM(void)
-..\application\sensor_app.c(92): warning:  #177-D: function "Sensor_GetValueInputGPIO"  was declared but never referenced
-  static void Sensor_GetValueInputGPIO(void)
-..\application\sensor_app.c(129): warning:  #177-D: function "Sensor_GetValueDHT11"  was declared but never referenced
-  static void Sensor_GetValueDHT11(void)
-..\application\sensor_app.c: 6 warnings, 0 errors
+..\application\sensor_app.c(55): warning:  #177-D: function "Sensor_GetValueDS18B20"  was declared but never referenced
+  static void Sensor_GetValueDS18B20(void)
+..\application\sensor_app.c: 2 warnings, 0 errors
 compiling lcd_app.c...
 linking...
-Program Size: Code=13448 RO-data=2040 RW-data=380 ZI-data=1604  
+Program Size: Code=14704 RO-data=2040 RW-data=404 ZI-data=1612  
 FromELF: creating hex file...
-".\Objects\stm32f103.axf" - 0 Error(s), 6 Warning(s).
+".\Objects\stm32f103.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
-  D:\lenovo\Desktop\14_DS18B20\STM32F103_DS18B20\project\RTE
+  D:\lenovo\Desktop\STM32F103_G1\project\RTE
   D:\EmbededSoft\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include
 
 <h2>Collection of Component Files used:</h2>

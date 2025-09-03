@@ -9,6 +9,12 @@
 
 /************************************* 变量定义 *******************************************************/
 
+/* 1ms计数器 */
+volatile uint32_t uwTick = 0;
+
+/* 环境变量 */
+Env_t g_env;
+
 /** 
  * @brief 开发板LED对象定义
  * @details 定义了开发板上三个LED的控制结构体
@@ -259,11 +265,11 @@ void BOARD_InitAll(void) {
     BOARD_InitDelay(1);	
 	
 	// 初始化ADC
-	BOARD_InitADC();
+		BOARD_InitADC();
 	
 	// 初始化 RTC
     BOARD_InitRTC();
 	
 	// 初始化PWM
-	BOARD_InitPWM();
+		BOARD_InitPWM();
 }
